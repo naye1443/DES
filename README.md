@@ -14,7 +14,7 @@ Within the bin directory, there are two exe types debug and relates. The only th
 
 My Idea was to create a simple DES class that would have all the functions needed to encrypt data using the DES scheme. I had set constant tables that would be needed within the scheme as private members so that no one one would be able to access or change these constants. I had gotten these constants from online and copied and pasted from https://github.com/alimasry/DES-Encryption/blob/master/Source.cpp.
 
-I wanted. Every box covered in class as a member function so that encryption would be modular and easy to implement. I had two major distinct functions, key_sched_des() and encrypt(). These function would do the main lifting where key_sched_des() would handle creating sub keys while encrypt would focus on computation of the rounds. The other functions were auxiliary functions to help the readability of the main two.
+I wanted every box covered in class as a member function so that encryption would be modular and easy to implement. I had two major distinct functions, key_sched_des() and encrypt(). These function would do the main lifting where key_sched_des() would handle creating sub keys while encrypt would focus on computation of the rounds. The other functions were auxiliary functions to help the readability of the main two.
 
 
 ## PROBLEMS:
